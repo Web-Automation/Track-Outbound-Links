@@ -18,7 +18,7 @@ def is_same_domain(url1, url2):
     # Compare the domain components to check if they are the same
     return domain1 == domain2
 
-# Set up the webdriver (make sure you have chromedriver or geckodriver installed)
+# Set up the webdriver:
 driver = webdriver.Chrome()  # You can use other drivers like Firefox by changing this line
 
 # Read base URLs from CSV file
