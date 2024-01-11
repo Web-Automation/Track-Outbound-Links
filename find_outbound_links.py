@@ -7,10 +7,7 @@ from selenium.webdriver.common.by import By
 from urllib.parse import urlparse
 from selenium import webdriver
 import csv
-import os
 
-# Prevent macOS from sleeping: Change "7200" as per your time(it takes input as second where 3600s = 1 hr) 
-os.system('caffeinate -i -t 7200 &')
 
 # Function to check if URLs belong to the same domain
 def is_same_domain(url1, url2):
