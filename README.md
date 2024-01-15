@@ -15,25 +15,24 @@ This Python script automates the process of finding valid outbound links from a 
 
 ## Usage
 Install dependencies:
-pip install selenium
-pip install webdriver_manager
+-pip install selenium
+-pip install webdriver_manager
 
 Prepare the input CSV file:
-
-Create a CSV file named urls.csv in the same folder as the script.
-Add base URLs to track outbound links.
-Run the script: "python find_outbound_links.py"
+- Create a CSV file named urls.csv in the same folder as the script.
+- Add base URLs to track outbound links.
+- Run the script: "python find_outbound_links.py"
 
 Configuration
-You can customize the script by adjusting the parameters such as the webdriver choice, timeout settings, and CSV file names directly in the script.
+- You can customize the script by adjusting the parameters such as the webdriver choice, timeout settings, and CSV file names directly in the script.
 
 Notes
-Ensure that you have the appropriate webdriver executable installed (e.g., chromedriver for Chrome) and it is in your system PATH or provide the path explicitly in the script.
-The script includes error handling for common exceptions during web scraping, making it robust in dealing with various situations.
+- Ensure that you have the appropriate webdriver executable installed (e.g., chromedriver for Chrome) and it is in your system PATH or provide the path explicitly in the script.
+- The script includes error handling for common exceptions during web scraping, making it robust in dealing with various situations.
 
 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+- This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgments
-Special thanks to the developers of Selenium for providing a powerful web automation library.
-Feel free to contribute and report issues!
+Acknowledgements
+- Special thanks to the developers of Selenium for providing a powerful web automation library.
+- Feel free to contribute and report issues!
