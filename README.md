@@ -11,7 +11,6 @@ This Python script automates the process of finding valid outbound links from a 
 - Python 3.x
 - Selenium (`pip install selenium`)
 - Webdriver (e.g., chromedriver for Chrome) - Make sure it is in your system PATH or provide the path explicitly in the script.
-- 
 
 ## Usage
 Install dependencies:
